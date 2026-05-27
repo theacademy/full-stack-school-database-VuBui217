@@ -10,7 +10,6 @@ import java.util.List;
 @RequestMapping("/course")
 @CrossOrigin
 public class CourseController {
-
     @Autowired
     CourseServiceImpl courseService;
 
